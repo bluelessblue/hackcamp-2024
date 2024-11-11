@@ -1,0 +1,283 @@
+.bruh {
+    background-color: blueviolet;
+}
+
+
+.layoutStyle {
+    border-radius: 20px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(248, 248, 248) 45.5%,
+        rgb(238, 238, 255) 100%
+    );
+    height: 100%;
+
+}
+
+.searchLayoutStyle {
+    border-radius: 20px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(248, 248, 248) 45.5%,
+        rgb(238, 238, 255) 100%
+    );
+    height: 100%;
+
+}
+
+.fontLayout {
+    /* Header type */
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    position: flex;
+}
+
+.headerFontLayout {
+    /* Header type */
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 300px !important;
+    font-weight: 400;
+    line-height: 400px ;
+    letter-spacing: 0.2px;
+    text-align: center;
+    position: relative;
+    top: 85px;
+    transform: scale(1.85)
+}
+
+/*.test-img {
+    padding-left: 200px;
+}*/
+
+.layout {
+    position: flex;
+    width: 1366px;
+    height: 1060px;
+    left: 79px;
+    top: 100px;
+    text-align: center;
+}
+
+.layout {
+    position: flex;
+    width: 1366px;
+    height: 1060px;
+    left: 100px;
+    top: 52px;
+}
+
+.layoutStyle {
+    border-radius: 0px;
+    /*background: radial-gradient (50% 50% at 50% 50%, rgb (248, 248 248) 45.5%, rgb(230, 238, 255) 100%);*/
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(255, 255, 250) 40.5%,rgb(220, 220, 235) 100%);
+    height: 1000px;
+}
+
+.test-img {
+    padding-left: 200px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+
+.descriptionLayout {
+    position: flex; 
+    width: 923px;
+    height: 66px;
+    left: 376px;
+    top: 50px;
+}
+
+.descriptionFontLayout {
+    position: flex;
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 40px;
+    top: 50px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    
+}
+
+.locDescriptionFontLayout {
+    position: flex;
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 40px;
+    top: 50px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 5px 0;
+    transform: scale(.65)
+    
+}
+
+.searchDescriptionFontLayout {
+    position: relative;
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    top: -950px;
+    transform: scale(.95)
+}
+
+.locationCardFontLayout {
+    position: relative;
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-left: 0px;
+    transform: scale(.7)
+    
+}
+
+.searchHeaderFont {
+    position: flex;
+    color: rgb(62, 73, 88);
+    font-family: Amaranth;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding-left: 5%;
+    
+}
+
+.buttonFrame{
+/* Auto layout */
+display: flex;
+position: relative;
+top: -50px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+.buttonStyle {
+    box-sizing: border-box;
+    border: 0.5px solid rgb(211, 211, 211);
+    border-radius: 15px;
+    background: rgb(173, 173, 215);
+    align-items: center;
+    position: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.inputLayout {
+    position: relative;
+    width: 544px;
+    height: 62px;
+    left: 82px;
+    top: 125px;
+}
+
+.inputStyle {
+    position: relative;
+    top: 150px;
+    box-sizing: border-box;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(255, 255, 255);
+}
+
+.searchBarStyle {
+    box-sizing: border-box;
+    position: relative;
+    top: -75px;
+    border: 0px solid rgb(211, 211, 211);
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    /*justify-content: center;
+    align-items: center; /* Vertically centers content inside the bar */
+    width: 450px; /* Set desired width */
+    background: rgb(255, 255, 255);
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Takes full width of its parent */
+    padding: 50px 50px; /* Optional padding for spacing */
+}
+
+/*
+.distanceBarStyle {
+    box-sizing: border-box;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+}*/
+
+.cardStyle{
+    border-radius: 50px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    margin-left: 1px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cardTextStyle{
+
+}
+
+.searchBarLocCard {
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    border: 0px solid rgb(211, 211, 211);
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    /*justify-content: center;
+    align-items: center; /* Vertically centers content inside the bar */
+    width: 450px; /* Set desired width */
+    background: rgb(255, 255, 255);
+}
+
+.ratingStyle{
+    display: flex;
+    justify-content: right;
+    margin-left: 0px;
+    width: 100%; /* Takes full width of its parent */
+    padding: 0 0 50px 50px; /* Optional padding for spacing */
+}
+
+.locationCardFontLayout {
+    display: relative;
+    justify-content: center;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%; /* Takes full width of its parent */
+    padding: 0 0 25px 25px; /* Optional padding for spacing */
+}
+

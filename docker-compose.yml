@@ -1,0 +1,15 @@
+services:
+  database:
+    container_name: source_local_database
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=source_local
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - source_local:/var/lib/postgresql/data
+
+volumes:
+  source_local:
